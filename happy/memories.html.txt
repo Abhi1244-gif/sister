@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 Special Memories 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="index.html">🏠 Home</a>
+            <a href="flowers.html">🌺 Flowers</a>
+            <a href="memories.html">💖 Memories</a>
+        </div>
+    </nav>
+
+    <div class="memory-container">
+        <h1 class="page-title">💕 Our Beautiful Memories 💕</h1>
+        <div class="slideshow-container">
+            <div class="memory-slide active">
+                <div class="memory-card">
+                    <h3>🌟 You're Amazing</h3>
+                    <p>Your smile lights up my world! Every moment with you is special.</p>
+                </div>
+            </div>
+            <div class="memory-slide">
+                <div class="memory-card">
+                    <h3>🎂 Birthday Wishes</h3>
+                    <p>Wishing you endless happiness, laughter, and all your dreams coming true!</p>
+                </div>
+            </div>
+            <div class="memory-slide">
+                <div class="memory-card">
+                    <h3>💖 Forever Sisters</h3>
+                    <p>Through every adventure, I'm so grateful to have you as my sister!</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide-controls">
+            <button onclick="prevSlide()">❮</button>
+            <button onclick="nextSlide()">❯</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

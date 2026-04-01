@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌺 Flower Garden for Sister 🌺</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="index.html">🏠 Home</a>
+            <a href="flowers.html">🌺 Flowers</a>
+            <a href="memories.html">💖 Memories</a>
+        </div>
+    </nav>
+
+    <div class="flower-container">
+        <h1 class="page-title">🌸 Your Personal Flower Garden 🌸</h1>
+        <p class="flower-text">Click anywhere to plant flowers! 💕</p>
+        <div id="flowers"></div>
+        <button class="flower-btn" onclick="blowWind()">💨 Gentle Breeze</button>
+        <button class="flower-btn" onclick="rainbowRain()">🌈 Rainbow Rain</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
